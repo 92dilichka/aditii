@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 1440px;
+    width: 100%;
+    height: 1200px;
+    /* border: 2px solid black; */
+    margin: auto;
+}
+.top{
+    height: 250px;
+    /* border: 2px solid red; */
+    margin: 50px auto;
+    
+    display: flex;
+    justify-content: space-around;
+}
+.card{
+    max-width: 350px;
+    height: 250px;
+    margin-left: 50px;
+    /* border: 2px solid pink; */
+    display: flex;
+    justify-content: space-between;
+}
+.shoes{
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+}
+.shop{
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 70px;
+    height: 34px;
+    /* border: 2px solid green; */
+}
+.btn{
+    margin-top: 20px;
+    background-color: #3CC395;
+    width: 70px;
+    height: 34px;
+    border: 2px solid #3CC395;
+}
+a{
+    color: white;
+    text-decoration: none;
+    line-height: 35px;
+    margin:auto;
+    border-radius: 15px;
+}
+.devider{
+    margin-top: 20px;
+    height: 64px;
+    background-color: #3CC395;
+}
+.product{
+    text-transform: uppercase;
+    color: white;
+    margin-left: 184px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 64px;
+}
+.main{
+   max-width: 950px;
+   /* border: 2px solid black; */
+   margin: 50px auto;
+  
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+
+}
+.card1{
+    width: 260px;
+    height: 260px;
+    border: 2px solid rgba(128, 128, 128, 0.17);
+    text-align: center;
+    margin-bottom: 50px;
+    border-bottom: 5px solid #3CC395;
+}
+img{
+    margin-top: 20px;
+}
+.shop1{
+   margin: 20px auto;
+    width: 150px;
+    height: 34px;
+    /* border: 2px solid green; */
+}
+.price{
+    width: 150px;
+    height: 50px;
+    /* border: 2px solid black; */
+    line-height: 50px;
+    
+    display: flex;
+    justify-content: space-around;
+}
+.btn1 {
+    margin-top: 10px;
+    background-color: #3CC395;
+    width: 70px;
+    height: 34px;
+    border: 2px solid #3CC395;
+}
