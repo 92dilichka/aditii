@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+.container{
+    max-width: 1440px;
+    width: 100%;
+    height: auto;
+    
+}
+
+   /* START NAVBAR */
+.header .navbar{
+    padding: 20px;
+    width: 100%;
+}
+.header .navbar ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search{
+    border: 1px solid grey;
+    width: 700px;
+    padding: 10px;
+    opacity: 0.7;
+}
+.search i{
+    display: block;
+    text-align: right;
+    opacity: 0.7;
+}
+.basket{
+    display: flex;
+    font-size: 25px;
+}
+.basket p{
+    margin-left: 15px;
+    color: grey;
+    font-weight: 800;
+}
+.basket i{
+    color: #3CC3B5;
+}
+
+/* END NAVBAR */
+
+/* START NAV_MENU*/
+.nav_menu{
+    padding: 12px;
+    background-color: #4CCFC1;
+}
+
+.nav_menu ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav_menu ul li{
+    border-left: 2px solid white;
+}
+.nav_menu ul li:nth-child(1){
+    border-left: none;
+}
+.nav_menu ul li a{
+    color: white;
+    font-weight: 400;
+    padding: 25px;
+}
+
+/* END NAV_MENU */
+
+/* START HEADER_BODY */
+
+.header_body{
+    width: 100%;
+    background-color: #39C8B5;
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: space-evenly;
+    padding: 50px;
+}
+.header_img{
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+}
+.header_info{
+    width: 40%;
+}
+.header_info h1{
+    color: white;
+    font-size: 50px;
+}
+.header_info p{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    color: white;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 1px;
+}
+.header_info button{
+    background-color: #39C8B5;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: 2px solid white;
+    color: white;
+    font-size: 20px;
+}
+
+.commas{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 25px;
+}
+.comma{
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border-radius: 50%;
+    margin: 5px;
+}
+.active{
+    background-color: rgba(128, 128, 128, 0.466);
+}
+
+/* END HEADER_BODY */
